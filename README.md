@@ -10,8 +10,8 @@ If you'd like to develop on and build the Matematik Tambahan book, you should:
 
 - Clone this repository and run
 - Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- (Recommended) Remove the existing `Matematik Tambahan/_build/` directory
-- Run `jupyter-book build Matematik Tambahan/`
+- (Recommended) Remove the existing `mekanik-kuantum/_build/` directory
+- Run `jupyter-book build mekanik-kuantum-jb/`
 
 A fully-rendered HTML version of the book will be built in `Matematik Tambahan/_build/html/`.
 
