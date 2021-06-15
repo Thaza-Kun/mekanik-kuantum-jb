@@ -1,31 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T13:35:47.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="14.7.7" etag="l3tDiEshaZpSBtaWzNPi" type="github">
-  <diagram id="jCdS8EOZgRIIive56Dt5" name="Page-1">
-    <mxGraphModel dx="868" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2" value="\(F=ma\)" style="ellipse;align=center;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="450" y="70" width="90" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Entry" style="rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="200" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="2" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Entry" style="rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="280" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="3" target="5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="Entry" style="rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="360" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="5" target="7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile>
+    <diagram id="jCdS8EOZgRIIive56Dt5" name="Page-1">
+        <mxGraphModel dx="1284" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="35" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=78;endSize=30;width=106;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="791.5" y="339" as="sourcePoint"/>
+                        <mxPoint x="792" y="829" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="$$\bar\epsilon=\frac{\sum_{n=0}^{\infty}N(n)\epsilon_n}{\sum_{n=0}^{\infty}N(n)&#10;}$$" style="rounded=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="717" y="359" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="$$\bar\epsilon=hf\frac{\sum ne^{(nk)}}{\sum e^{(nk)}}$$" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="717" y="459" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="710" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="$$\bar\epsilon=hfe^k\frac{(1-e^k)^1}{(1-e^k)^2}$$" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="717" y="559" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="26" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="26" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span&gt;$$k=\frac{-hf}{k_BT}$$&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fillColor=#CCFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="567" y="499" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=5;endArrow=none;endFill=0;" edge="1" parent="1" source="27" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span&gt;$$\epsilon_n=nhf$$&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCFF99;" vertex="1" parent="1">
+                    <mxGeometry x="527" y="309" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=5;" edge="1" parent="1" source="28" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="$$n(f)=\frac{8\pi f^2}{c^3}$$" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCFF99;" vertex="1" parent="1">
+                    <mxGeometry x="527" y="659" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="$$U=n(f)\bar\epsilon$$" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="717" y="659" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=5;" edge="1" parent="1" source="32" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="$$N(n)=N_0e^{(\frac{-\epsilon_n}{k_BT})}$$" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#CCFF99;" vertex="1" parent="1">
+                    <mxGeometry x="527" y="409" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="$$U=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{x}-1}$$" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="717" y="759" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="1" source="42" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="$$x=\frac{hc}{\lambda k_BT}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="567" y="749" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="45" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;span&gt;$$\lim_{N\to\infty}\sum_{n=0}^Nax^n=a\frac{1}{1-x}$$&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="907" y="399" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="867" y="489" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="887" y="539"/>
+                            <mxPoint x="887" y="489"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="$$\lim_{N\to\infty}\sum_{n=0}^Nax^{n-1}=a\frac{1}{(1-x)^2}&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;$$" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;size=20;fillColor=#FFFFCC;" vertex="1" parent="1">
+                    <mxGeometry x="907" y="499" width="220" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
