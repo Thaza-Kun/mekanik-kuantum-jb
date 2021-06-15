@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T13:27:53.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="14.7.7" etag="e5Mx9AtTN2VbFjOubu3K" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T13:35:47.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" version="14.7.7" etag="l3tDiEshaZpSBtaWzNPi" type="github">
   <diagram id="jCdS8EOZgRIIive56Dt5" name="Page-1">
     <mxGraphModel dx="868" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="ellipse" parent="1" vertex="1">
-          <mxGeometry x="460" y="120" width="80" height="30" as="geometry" />
+        <mxCell id="2" value="\(F=ma\)" style="ellipse;align=center;labelBackgroundColor=none;labelBorderColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="450" y="70" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Entry" style="rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="200" width="80" height="30" as="geometry" />
