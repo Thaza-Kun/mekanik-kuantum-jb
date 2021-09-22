@@ -10,6 +10,13 @@ author                      : Murthadza Aznam  # The author of the book
 copyright                   : "2021"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
 
+# Senarai pemalar dan nilai-nilai yang digunakan secara berulang-ulang
+parse:
+  myst_substitutions:
+    pemalar_boltzmann: $1.380649\times 10^{-23} \text{J}\cdot\text{K}^{-1}$
+    pemalar_stefan_boltzmann: $5.6704\times 10^{-8}\;\text{W}\cdot\text{m}^{-2}\cdot\text{K}^{-4}$
+    pemalar_wien: $2.8978\times 10^{-3}\;\text{m}\cdot\text{K}$
+
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
@@ -35,3 +42,13 @@ repository:
 html:
   use_issues_button: false
   use_repository_button: true
+
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mathjax_config:
+      loader:
+        load: ['[tex]/physics']
+      tex:
+        packages:
+          '[+]': ['physics']

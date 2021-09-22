@@ -29,8 +29,8 @@
    1. Pembaca tahu tentang **pelbagai bentuk persamaan Planck** yang bersepah di internet.
 
 ## Senarai Ujikaji yang Disebut dalam Nota Kuliah tetapi belum ada tempat.
-- Kesan Compton
 - Kesan Fotoelektrik
+- Kesan Compton
 - Ujikaji Frank--Hertz
 - Ujikaji Davisson--Germer
 - Ujikaji Stern--Gerlach

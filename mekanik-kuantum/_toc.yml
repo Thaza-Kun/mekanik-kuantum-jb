@@ -4,23 +4,12 @@
 format: jb-book
 root: index
 parts:
-  - caption: ALGEBRA
+  - caption: UJIKAJI
     chapters:
-    - file: algebra/contoh
-      title: Contoh
-  - caption: GEOMETRI
+    - file: ujikaji/sinaran-jasad-hitam
+  - caption: FUNGSI GELOMBANG
     chapters:
-    - file: geometri/contoh
-      title: Contoh
-  - caption: KALKULUS
+    - file: fungsi-gelombang/
+  - caption: PERSAMAAN SCHR&OUML;DINGER
     chapters:
-    - file: kalkulus/contoh
-      title: Contoh
-  - caption: TRIGONOMETRI
-    chapters:
-    - file: trigonometri/contoh
-      title: Contoh
-  - caption: STATISTIK
-    chapters:
-    - file: statistik/contoh
-      title: Contoh
+    - file: persamaan-schroedinger/

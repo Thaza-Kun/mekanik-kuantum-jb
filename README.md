@@ -1,4 +1,4 @@
-# Matematik Tambahan
+# Mekanik Kuantum
 
 This cookiecutter creates a simple boilerplate for a Jupyter Book.
 
