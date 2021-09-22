@@ -1,5 +1,5 @@
-# Matematik Tambahan
-Oleh: Chiam Joe Win & Murthadza Aznam
+# Mekanik Kuantum
+Oleh: Murthadza Aznam
 
 ```{important}
 Buku ini masih sedang ditulis. Kandungannya belum muktamad.
